@@ -56,13 +56,22 @@ main {
 }
 
 .partecipanti {
-    margin: 20px 15px 0;
+    margin: 20px 35px 0;
     width: 90%;
 }
 
 .partecipante {
     width: calc(100% / 7);
-    height: 100px;
+    position: relative;
+    margin: 5px;
+}
+
+.username {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    background-color:
+        rgba(100, 100, 100, 0.8);
 }
 
 footer {
