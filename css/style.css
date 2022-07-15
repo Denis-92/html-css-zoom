@@ -26,6 +26,10 @@ body {
     flex-direction: column;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .grow {
     flex-grow: 1;
 }
@@ -51,6 +55,16 @@ main {
     background-color: black;
 }
 
+.partecipanti {
+    margin: 20px 15px 0;
+    width: 90%;
+}
+
+.partecipante {
+    width: calc(100% / 7);
+    height: 100px;
+}
+
 footer {
     background-color: #222;
     padding: 30px;
@@ -68,5 +82,5 @@ footer {
 .pulsante {
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 5px 10px;
 }
