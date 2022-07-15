@@ -53,11 +53,12 @@ header {
 
 main {
     background-color: black;
+    position: relative;
 }
 
 /* box contenente tutti gli utenti */
 .partecipanti {
-    margin: 20px 35px 0;
+    margin: 20px 35px 90px;
     width: 90%;
 }
 
@@ -65,7 +66,7 @@ main {
 .partecipante {
     width: calc(100% / 7);
     position: relative;
-    margin: 5px;
+    border: 5px solid black;
 }
 
 .username {
@@ -110,7 +111,8 @@ footer {
     width: 100%;
     background-color: #444;
     border: 0;
-    padding: 5px;
+    padding: 15px;
+    font-weight: bold;
 }
 
 .freccetta {
