@@ -13,14 +13,37 @@ body {
 
 /* ----- UTILITY ----- */
 
+/* proprietà flex */
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
 
 /* ----- CONTENT ----- */
 
 .finestra {
     height: 100vh;
+    color: white;
 }
 
+header {
+    background-color: red;
+    padding: 20px;
+}
 
 footer {
-    background-color: black;
+    background-color: #222;
+    padding: 30px;
 }
