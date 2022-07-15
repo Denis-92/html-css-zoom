@@ -18,6 +18,10 @@ body {
     display: flex;
 }
 
+.space-between {
+    justify-content: space-between;
+}
+
 .column {
     flex-direction: column;
 }
@@ -39,8 +43,12 @@ body {
 }
 
 header {
-    background-color: red;
+    background-color: black;
     padding: 20px;
+}
+
+main {
+    background-color: black;
 }
 
 footer {
