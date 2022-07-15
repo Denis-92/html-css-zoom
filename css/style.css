@@ -44,6 +44,7 @@ body {
 .finestra {
     height: 100vh;
     color: white;
+    /* overflow ? */
 }
 
 header {
@@ -55,11 +56,13 @@ main {
     background-color: black;
 }
 
+/* box contenente tutti gli utenti */
 .partecipanti {
     margin: 20px 35px 0;
     width: 90%;
 }
 
+/* box singolo partecipante */
 .partecipante {
     width: calc(100% / 7);
     position: relative;
@@ -74,13 +77,8 @@ main {
         rgba(100, 100, 100, 0.8);
 }
 
-footer {
-    background-color: #222;
-    padding: 30px;
-}
-
 .pulsante-speaker {
-    background-color: #666;
+    background-color: #555;
     color: white;
     padding: 10px;
     border-radius: 3px;
@@ -88,8 +86,17 @@ footer {
 
 /* footer */
 
+footer {
+    background-color: #222;
+    padding: 30px;
+}
+
 .pulsante {
     justify-content: center;
     align-items: center;
     padding: 5px 10px;
+}
+
+.fine-riunione {
+    color: red;
 }
